@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" fill="none">
+  <title>pipsrec</title>
+  <rect width="64" height="64" rx="14" fill="#14201D"/>
+  <g transform="translate(6.4 6.4) scale(.8)">
+    <g stroke="#C0DBB7" stroke-width="1.6" stroke-linecap="round">
+      <path d="M8 28v8M16 23v18M24 16v32M32 10v44M48 23v18M56 28v8"/>
+    </g>
+    <g fill="#C0DBB7">
+      <rect x="5.5" y="30" width="5" height="4" rx="1"/>
+      <rect x="13.5" y="27" width="5" height="10" rx="1"/>
+      <rect x="21.5" y="22" width="5" height="20" rx="1"/>
+      <rect x="29.5" y="17" width="5" height="29" rx="1"/>
+      <rect x="45.5" y="28" width="5" height="8" rx="1"/>
+      <rect x="53.5" y="30" width="5" height="4" rx="1"/>
+    </g>
+    <path d="M40 19v26" stroke="#E8917E" stroke-width="1.6" stroke-linecap="round"/>
+    <rect x="37.5" y="24" width="5" height="14" rx="1" fill="#E8917E"/>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+# Dependencies and build products
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+.npm-cache/
+coverage/
+*.log
+
+# Generated assets for platforms not currently shipped
+src-tauri/icons/android/
+src-tauri/icons/ios/
+src-tauri/icons/StoreLogo.png
+src-tauri/icons/Square*Logo.png
+
+# Local recordings, databases, exports, and recovery data
+.dev-data/
+sessions/
+recordings/
+screenshots/
+media/
+exports/
+data/
+backups/
+private/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.db
+*.db-*
+*.pending
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.webm
+
+# Credentials, certificate bundles, and machine-specific configuration
+.env
+.env.*
+*.local
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+.secrets*
+.aws/
+.ssh/
+.codex/
+.agents/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Internal documentation and local installation tooling stay off the remote.
+*.md
+!/README.md
+/docs/
+/scripts/install-ui.ps1

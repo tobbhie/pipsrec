@@ -1,0 +1,27 @@
+[package]
+name = "pipsrec"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A local-first desktop recorder and evidence-backed trading journal."
+repository = "https://github.com/tobbhie/pipsrec"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.37", features = ["bundled"] }
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1", features = ["v4"] }
+sha2 = "0.10"
+base64 = "0.22"
+tauri-plugin-global-shortcut = "2"
+
+[target.'cfg(windows)'.dependencies]
+windows-capture = "=2.0.1"
+
+[dev-dependencies]
+tempfile = "3"

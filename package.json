@@ -1,0 +1,19 @@
+{
+  "name": "pipsrec-desktop",
+  "version": "0.1.0",
+  "description": "A local-first desktop recorder and evidence-backed trading journal.",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/tobbhie/pipsrec.git" },
+  "bugs": { "url": "https://github.com/tobbhie/pipsrec/issues" },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "icons": "tauri icon assets/icon.svg --output src-tauri/icons",
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "desktop": "tauri dev",
+    "desktop:build": "tauri build --no-bundle"
+  },
+  "dependencies": { "@tauri-apps/api": "^2.0.0", "react": "^19.0.0", "react-dom": "^19.0.0" },
+  "devDependencies": { "@tauri-apps/cli": "^2.0.0", "@types/react": "^19.0.0", "@types/react-dom": "^19.0.0", "typescript": "~5.8.3", "vite": "^6.0.0" }
+}
